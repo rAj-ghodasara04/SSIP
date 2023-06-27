@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 230px;
+    background-color: #fbcd39;
+    display: flex;
+
+}
+header h3{
+    color: black;
+    font-size: 30px;
+    font-family:sans-serif;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+header h1{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 45px;
+    font-family:sans-serif;
+    margin-left: 140px;
+    text-align: center;
+}
+.pop_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+}
+header nav ul li{
+    text-align: center;
+    display: block;
+    margin-top: 12px ;
+    color: black;
+    background: white;
+    font-size: 25px;
+    border: 15px solid white;
+    border-radius: 120px;
+    margin-left: 50px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+header nav ul li:hover{
+    background: #f0f0f0;
+    border: 15px solid #f0f0f0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    margin-top: 7px;
+    height: 215px;
+    margin-left: 72px;
+}
+.logo2{
+    height: 215px;
+    margin-left: 90px;
+    margin-top: 7px;
+}
+
+
+/* form css->*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20rem;
+    margin-top: 1rem;
+}
+
+.form{
+    display: grid;
+    font-weight: bold;
+    font-size: large;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5rem;
+    row-gap: 0.5rem;
+}
+label{
+    margin-top: 15px;
+}
+input{
+    background-color: #F0F0F0;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    min-height: 5rem;
+}
+.submit>input{
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid orange;
+    border-radius: 20px;
+    width: 9rem;
+    font-size: medium;
+    margin-top: 40px;
+}
+
+.submit>input:hover{
+    background-color: orange;
+}
+
+.footer_img1{
+    max-height: 50%;
+    background-color: white;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    left: 0;
+}
+.footer_img2{
+    position: absolute;
+    float: right;
+    height: 50vh;
+    bottom: 0;
+    right: 0;
+}
+

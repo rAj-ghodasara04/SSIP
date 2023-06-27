@@ -1,0 +1,5 @@
+<td>${data.time}</td>
+<th>Time</th> 
+
+
+rev_show.jsp
